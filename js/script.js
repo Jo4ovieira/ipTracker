@@ -2,7 +2,6 @@ link = "http://ip-api.com/json/"
 function getIp() {
     const ip = $('#ip').val()
     link = "http://ip-api.com/json/"+ip
-    alert(link)
     $.getJSON(link, function(data){
         $('#ip').prop("value", data.query);
         $('#isp').text(data.isp);
