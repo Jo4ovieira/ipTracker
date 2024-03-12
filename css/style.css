@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    background-color: #242424;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+.bg {
+    background-color: #242424;
+}
+.align {
+    display: flex;
+    justify-content: center;
+}
+.search-bar {
+    padding: 6px;
+    width: 300px;
+    height: 40px;
+    background-color: #3a3a3a;
+    color: #fff;
+    border: 1px solid #444444;
+}
+.search-btn {
+    padding: 8px;
+    height: 40px;
+    background-color: #64f784;
+    color: #242424;
+    border: 0px;
+    border-radius: 3px;
+    width: 120px;
+    margin-left: 4px;
+}
+.top {
+    padding-top: 5%;
+} 
+iframe {
+    border-radius: 4px;
+}
