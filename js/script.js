@@ -24,3 +24,15 @@ $.getJSON(link, function(data){
     $('#map').attr("src", "https://www.google.com/maps?q="+data.lat+","+data.lon+"&output=embed");
     console.log(data)
 });
+
+window.onload = function typeWriter() {
+    const conteudo = document.querySelector('h2')
+    const type = conteudo.innerHTML.split('')
+
+    conteudo.innerHTML = ''
+
+    type.forEach((letra, i) => {
+        setTimeout(() => conteudo.innerHTML += letra , 100 * i)
+    })
+    
+}

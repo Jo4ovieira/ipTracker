@@ -32,6 +32,12 @@
 .top {
     padding-top: 5%;
 } 
+.title {
+    color: #64f784;
+}
+p {
+    font-size: 20px;
+}
 iframe {
     border-radius: 4px;
 }
